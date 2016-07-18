@@ -1,2 +1,2 @@
-# npm-package-boilerplate
+# npm-boilerplate
 A boilerplate for NPM packages

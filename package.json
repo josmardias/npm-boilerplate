@@ -1,16 +1,16 @@
 {
-  "name": "@josmardias/npm-package-boilerplate",
+  "name": "@josmardias/npm-boilerplate",
   "version": "0.0.3",
   "description": "A boilerplate for NPM packages",
   "license": "MIT",
   "author": "Josmar Dias",
-  "homepage": "https://github.com/josmardias/npm-package-boilerplate#readme",
+  "homepage": "https://github.com/josmardias/npm-boilerplate#readme",
   "bugs": {
-    "url": "https://github.com/josmardias/npm-package-boilerplate/issues"
+    "url": "https://github.com/josmardias/npm-boilerplate/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/josmardias/npm-package-boilerplate.git"
+    "url": "git+https://github.com/josmardias/npm-boilerplate.git"
   },
   "main": "index.js",
   "scripts": {
