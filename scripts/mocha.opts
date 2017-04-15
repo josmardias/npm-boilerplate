@@ -1,6 +1,0 @@
---compilers js:babel-register
---require scripts/mocha-runner
---reporter spec
---recursive
---check-leaks
---timeout 5000

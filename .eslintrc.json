@@ -3,12 +3,13 @@
   "extends": "airbnb-base",
   "plugins": [
     "babel",
-    "mocha"
+    "jest"
   ],
   "env": {
     "browser": false,
     "commonjs": true,
     "es6": true,
+    "jest/globals": true,
     "node": false,
     "shared-node-browser": true
   },
@@ -18,9 +19,10 @@
   "rules": {
     "complexity": ["warn", 6],
     "indent": ["warn", 2],
+    "jest/no-disabled-tests": "warn",
+    "jest/no-focused-tests": "error",
+    "jest/no-identical-title": "error",
     "linebreak-style": ["error", "unix"],
-    "mocha/no-exclusive-tests": "error",
-    "mocha/no-global-tests": "error",
     "no-multi-str": ["off"],
     "no-unused-expressions": ["error", { "allowShortCircuit": true }],
     "semi": ["error", "never"]
